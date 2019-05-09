@@ -1,0 +1,44 @@
+.menu {
+    display: flex;
+    width: 768px;
+    height: 72px;
+   
+    margin: auto;
+    margin-bottom: 68px;
+    
+}
+
+.menulink {
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    display: block;
+      font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+  
+}
+
+.link1 {
+    background-color: #2e4897;
+    
+
+}
+
+.link2 {
+    background-color: #647ab2;
+
+}
+
+.link1:hover {
+    background-color: darkslategray;
+}
+
+.link2:hover {
+    background-color: darkslategray;
+}

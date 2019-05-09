@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    background-color: #b99d5e;
+
+}
+
+header h1 {
+    font-size: 1.5em;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    padding: .5em 0em;
+}
+
+
+.project-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.project-container h2 {
+    color: #fff;
+    font-family: Verdana, sans-serif;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-left {
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+
+main img {
+        width: 50%;
+    }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* blue – #526a9a*/
+/* beak gold - #b99d5e*/
+
+@media only screen and (min-width: 960px) {
+
+
+/*
+    main img {
+        width: 100%;
+    }
+*/
+
+
+}

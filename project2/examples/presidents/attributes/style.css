@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+}
+
+
+.container {
+    width:768px;
+    height: 1110px; 
+    background-color: transparent;
+    margin: auto;
+    margin-bottom: 50px;
+   
+}
+
+
+.body {
+    height: 1100px;
+    position: relative;
+    bottom: 80px;
+    margin-bottom: 100px; 
+}
+
+/*typefaces*/
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    color: #c53739;
+    letter-spacing: 1.2px;
+}
+
+
+h2 {
+    font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white; 
+}
+
+.menu h2 {
+      font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white; 
+    margin: auto;
+
+}
+
+p {
+    font-family: "roboto",sans-serif;
+    font-size: 20px;
+}
+
+
+/*title*/
+.title {
+    width: 768px;
+    height: 233px;
+    margin: auto;
+    margin-bottom: 54px;
+    position: relative;
+    bottom: 48px;
+}
+
+.not_title {
+    position: relative;
+    bottom: 130px;
+}
+
+
+
+.presidents {
+    width: 768px;
+    height: 380px; 
+    margin: auto;
+    margin-bottom: 10px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    
+}
+
+.description {
+    width: 364px;
+    height: 254px;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    top: 30px;
+    
+}
+
+
+.bigpresbox {
+    width: 229px;
+    height: 309px;
+    padding-top: 10px;
+ background-color: transparent;
+    
+    
+}
+
+#georgebox {
+   
+    position: relative;
+    top: 63px; 
+}
+
+#georgebox img {
+    position: relative;
+    top: -99px;
+    left: -12px;
+    
+}
+
+#abebox {
+
+    position: relative;
+    top: -300px;
+    margin: auto;
+}
+
+#abebox img {
+    position: relative;
+    bottom: 103px;
+    right: 5px;
+}
+
+
+
+#teddybox img {
+    position: relative;
+    right: 4px;
+    bottom: 99px;
+
+}
+
+#teddybox {
+   
+    float: right;
+    position: relative;
+    bottom: 577px;
+}
+
+.presbox {
+    width: 200px;
+    height: 300px;
+    background-color: transparent
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.label{
+    width: 144px;
+    height: 25px;
+    margin: auto;
+    position: relative;
+    top: 15px;
+
+}
+
+.button1 {
+    width: 170px;  
+    height: 48px;
+    background-color: #c53739;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    padding: 12px 0px 0px 0px
+}
+
+.button1:hover {
+    background-color:darkslategray;
+}
+
+#desc_frame {
+    width: 440px;
+    height: 200px;
+    background-color: #f6d8c3;
+    padding: 30px 10px 30px 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#desc_frame h1 {
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+
+
+
+.img_back {
+    width:190px;
+    height: 190px;
+    margin: auto;
+    position: absolute;
+    background-color: #d56f70;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#img_back_abe {
+    background-color: #647ab2;
+}
+
+#georgebutton {
+    position: relative;
+    bottom: 100px;
+    right: 18px;
+}
+
+#abebutton {
+    position: relative;
+    bottom: 100px;
+    right: 18px;
+}
+
+#teddybutton {
+    position: relative;
+    bottom: 100px;
+    right: 18px;
+}
+
+#home_menu {
+    visibility:hidden;
+}
+
+
+
+

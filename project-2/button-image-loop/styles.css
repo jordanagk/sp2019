@@ -1,0 +1,53 @@
+body {
+    font-family: 'League Spartan';
+    color:peachpuff;
+}
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(assets/venus-300x240.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: yellow;
+    font-family: monospace;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.loop {
+    background-image: url(assets/venus-300x240.jpg);
+    color: #fff;
+    font-family: cursive;
+}
+
+.paint {
+    font-family: 'League Spartan';
+    font-size: 300px;
+    color: peru;
+}
+
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('font/leaguespartan-bold.eot');
+    src: url('font/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+        url('font/leaguespartan-bold.woff2') format('woff2'),
+        url('font/leaguespartan-bold.woff') format('woff'),
+        url('font/leaguespartan-bold.ttf') format('truetype'),
+        url('font/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

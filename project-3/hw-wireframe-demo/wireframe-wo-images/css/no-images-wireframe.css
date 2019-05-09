@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    background-color: #b99d5e;
+
+}
+
+header h1 {
+    font-size: 1.5em;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    padding: .5em 0em;
+}
+
+.project {
+    height: 3em;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1.5em;
+    background-color: blanchedalmond;
+}
+
+.project.blue {
+    background-color: #526a9a;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* blue – #526a9a*/
+/* beak gold - #b99d5e*/
+
+@media only screen and (min-width: 960px) {
+    .project {
+        height: 3em;
+        width: 33%;
+    }
+
+    .project-container {
+        flex-direction: row;
+    }
+
+
+
+}

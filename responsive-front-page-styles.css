@@ -1,0 +1,231 @@
+/* This is the responsive unit version of the front-page-styles.css*/
+
+
+body {
+    padding: 0;
+    margin: 3.125em 0px;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: 'Merriweather', serif;
+
+}
+
+.container {
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 5%;
+    border-radius: 1em;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 12.5em;
+}
+
+.header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.125em;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    /*  5px = .3125em  */
+    letter-spacing: .3125em; 
+}
+
+
+.header h5,
+.sub-section h5 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 400;
+    /*  2.5/16 = .15625em  */
+    letter-spacing: .15625em;
+}
+
+.section,
+.sub-section {
+    margin-left: 3.125em;
+}
+
+
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+/*
+
+a:visited {
+    color: #008571;
+}
+
+a:hover {
+    color: #8181eb;
+}
+*/
+
+.flex-box {
+    display: flex;
+}
+
+/**************** Section Buttons ************/
+.project a,
+.resource a {
+    display: block;
+    padding: 1.25em;
+    border-radius: .5em;
+    text-align: center;
+    /*  20/16 = 1.25em  */
+    margin-bottom: 1.25em;
+    box-shadow: 0 .25em .5em 0 rgb(0, 0, 0, 0.2);
+    /*  230/16 = 14.375em */
+    width: 14.375em;
+    /*  1/16 = .0625em  */
+    border: .0625em solid;
+}
+
+.sub-section a {
+    width: 14.375em;
+    line-height: 1.75em;
+}
+
+.section a {
+    color: #79a52b;
+    border-color: #79a52b;
+}
+
+.section a:hover {
+    color: white;
+    background-color: #79a52b;
+}
+
+
+
+.sub-section.examples a,
+.sub-section.demos a {
+    border-color: #2e4f9c;
+    color: #2e4f9c;
+}
+
+.sub-section.examples a:hover,
+.sub-section.demos a:hover {
+    background-color: #2e4f9c;
+    color: white;
+}
+
+.resource a {
+    border-color: #6b2e5d;
+    color: #6b2e5d;
+}
+
+.resource a:hover {
+    background-color: #6b2e5d;
+    color: white;
+}
+
+.sub-section.examples h5,
+.sub-section.demos h5 {
+    color: #2e4f9c;
+}
+
+.sub-section.examples {
+    margin-right: 4.6875em;
+}
+
+.sub-section.demos {
+    margin-left: 0px;
+}
+
+/*************** Project Styles **************/
+.project,
+.resource {
+    /*  75/16 = 4.6875em  */
+    margin-bottom: 4.6875em;
+    border-radius: .5em;
+    /*  100/16 = 6.25em  */
+    padding-bottom: 6.25em;
+}
+
+.project h3 {
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+    /*  30/16 = 1.875em  */
+    margin-left: 1.875em;
+    padding-top: 1.875em;
+}
+
+.project-number,
+.resource h3 {
+    font-size: .75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .15625em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.resource h3 {
+    margin-left: 1.875em;
+    padding-top: 1.875em;
+}
+
+.project.ptwo {
+    background-color: rgba(46, 79, 156, 0.10);
+    color: #2e4f9c;
+}
+
+.project.pone {
+    background-color: rgba(121, 165, 43, 0.1);
+    color: rgb(83, 112, 29);
+}
+
+.project .pthree {
+    background-color:rgba(189, 64, 40, 0.1);
+    color:#BD4028;
+}
+
+.project.pone h3,
+.resource h3 {
+    /*  64/16 = 4em  */
+    margin-bottom: 4em;
+}
+
+.resource {
+    background-color: rgba(107, 46, 93, 0.1);
+    color: #6b2e5d;
+}
+
+
+/********** Media Queries *************/
+
+@media screen and (max-width: 800px) {
+
+    .flex-box {
+        flex-direction: column;
+    }
+
+    .sub-section {
+        margin-bottom: 1.67em;
+    }
+
+    .sub-section.demos {
+        margin-left: 3.175em;
+    }
+
+}
+
+@media screen and (max-width: 734px) {
+    .container {
+        width: 100vw;
+        height: 80%;
+        margin: 0;
+        background-color: #ffffff;
+        padding: 5%;
+        border-radius: 0px;
+    }
+
+}

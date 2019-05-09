@@ -1,0 +1,99 @@
+* {
+    margin: 0px
+}
+
+.body {
+    background-color: #cbdce1;
+}
+
+img.infobg {
+    min-height:100%;
+    min-width: 1024px;
+    width:100%;
+    height: auto;
+    position: absolute;
+    background-size: cover;
+    z-index: -999;
+}
+
+
+.container {
+    width: 768;
+    height: 1024;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+img.backgroundpic {
+    width: 768;
+    height:1000;
+    top:20;
+    position: absolute;
+    opacity: 0.6;
+    z-index: -10;     
+}
+
+
+img.spic {
+    width: 500;
+    height: 550;
+    order: 1;
+    margin-left: 125;
+    margin-right: 155;
+    margin-top: 50;
+    order: 1;
+}
+
+.scorpiustitle {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    order: 2;
+    color: #0f5171;
+}
+
+
+.ursaminorinfo {
+    width: 400;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 210;
+    margin-right:194;
+    margin-bottom: 15;
+    order: 3;
+    color: #0f5171;
+    font-family: sans-serif;
+    
+}
+
+
+.backbutton {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 324;
+    margin-right: 324;
+    order: 4;
+}
+
+
+a {
+    color:#0f5171;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 25
+}
+
+a:hover {
+    color: #c6d9e0;
+}
+
+
+
+
+
+

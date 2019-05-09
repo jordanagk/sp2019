@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+}
+
+
+
+.quiz_top {
+    width: 90%;
+    height: 560px;
+    margin: auto;
+    position: relative;
+
+}
+
+.quiz_presname {
+    width: 95%;
+    height: 80px;
+   
+    margin: auto;
+    padding: none;
+    
+    
+}
+
+.quiz_presname h1{
+    width: 100%;
+    margin: auto;
+    font-size: 45px;
+}
+
+.quiz_illustration {
+    width: 365px;
+    height: 466px;
+    background-color: trasparent;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    bottom: 40%;
+    
+   
+    
+}
+
+.back_back {
+width: 300px;
+height: 300px;
+background-color: #d56f70;
+border-radius: 20px;
+margin: auto;
+}
+
+
+.abe_back_together {
+height: 50%;
+position: relative;
+top:120px;
+}
+
+.back_back_abe{
+width: 300px;
+height: 300px;
+background-color: #d56f70;
+border-radius: 20px;
+margin: auto;
+}
+
+#abe_back_illustration {
+position: relative;
+bottom: 465px;
+left: 2%;
+}
+
+
+
+.learn_more {
+    width: 250px;
+    height: 65px;
+    background-color: lightcoral;
+    margin: auto;
+    position: relative;
+    bottom: 120px;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 1.2px;
+    font-size: 23px;
+    text-align: center;
+    color: white; 
+}
+
+.button2 {
+    width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align:middle;
+    color: white;
+    background-color: #647ab2;
+    padding-top: 1px;
+}
+
+.button2 h2{
+    font-family: "patua one";
+    font-size: 25px;
+}
+
+.button2:hover {
+    background-color: darkslategray;
+}
+
+
+
+.big_info {
+    width: 760px;
+    height: 1000px;
+    background-color: #f6d8c3;
+    border-radius: 30px;
+    position: absolute;
+    top: 130px;
+    margin: auto;
+    visibility: hidden;
+}
+
+#george_big_info {
+    height: 1080px;
+}
+
+#abe_button2 {
+    position: relative;
+    bottom: 30px;
+    margin: auto;   
+}
+
+.margin_center {
+    margin: auto;
+    width: 250px;
+}
+
+.big_info_content {
+    position: relative;
+    top: 5%;}
+
+.info_top {
+    height:163px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    top:3%;
+
+}
+
+.info_title {
+    width: 29px;
+    height: 100px;
+    float: left;
+    padding-top: 50px;
+    
+}
+
+.info_photo {
+    width: 296px;
+    height: 310px;
+    margin-left: 20px;
+    float: right;
+}
+
+.info_photo img {
+    border-radius: 15px;
+}
+
+
+.info_text{
+    width: 622px;
+    height: 387px;
+    background-color: transparent;
+    padding: 10px;
+    position: relative;
+    top: 5%;
+    left: 10%;
+    right: 10%;  
+} 
+
+.info_title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    padding: none;
+    
+}
+
+#back {
+    margin: auto;
+    position: relative;
+    top: 150px;
+    background-color:#c53739;
+    background-color: #c53739;
+    border-radius: 10px;
+    display: inline;
+    padding: 14px 20px 47px 20px; 
+    
+}
+
+#back:hover {
+    background-color: darkslategray;
+}
+
+
+
+.back_container {
+    width: 170px;  
+    height: 48px;
+    margin: auto;
+    position: relative;
+    top: 110px;
+}
+
+#george_back_container {
+    position: relative;
+    top: 250px;
+}
+
+#abe_back_container {
+    position: relative;
+    top: 180px;
+}
+
+
+.empty_info {
+    width: 518px;
+    height: 869px;
+    background-color: transparent;
+}
+
+.none {
+    visibility: hidden !important;
+    
+
+}
+
+.visible {
+    visibility: visible;
+}
+
+.half {
+    opacity: .5;
+}
+
+#gt_trivia_illustration img {
+    position: relative;
+    bottom: 100px;
+}
+
+.gt_quiz {
+    position: relative;
+    bottom: 10px;
+}
+
+
+#slickQuiz {
+    visibility: visible;
+    margin-bottom: 100px;
+}
+
+
+#georgeteddy_learnmore {
+    position: relative;
+    bottom: 30px;
+}
+
+.georgeteddy_quiz {
+    position: relative;
+    bottom: 120px;
+}
+
+#teddy_back img {
+    position: relative;
+    right: 9px;
+    bottom: 107px;
+    
+}

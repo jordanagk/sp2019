@@ -1,0 +1,694 @@
+* {
+    margin: 0px;
+
+}
+
+.container {
+    width: 1024px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+
+}
+
+
+
+
+/************* Containers & Colors ************/
+.content_container,
+.content_completed {
+    height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.white {
+    background-color: white;
+}
+
+.light-blue {
+    background-color: #d4e9f8;
+}
+
+.gray {
+    background-color: #f1f1ef;
+}
+
+.yellow {
+    background-color: #fac748;
+}
+
+.content_completed {
+    padding-top: 200px;
+}
+
+.title h1 {
+    font-size: 24pt;
+    font-weight: 100;
+    width: 200px;
+    letter-spacing: 4px
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.flex-box img {
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.text h2 {
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text h4 {
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.text p {
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.message p {
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 50px;
+}
+
+
+
+a {
+    color: #f9cccc;
+}
+
+.skincare-box {
+    width: 400px;
+    margin: 100px auto 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+#normal_1 img {
+    width: 75px;
+}
+
+#normal_2 img {
+    width: 100px;
+}
+
+#normal_3 img {
+    width: 150px;
+}
+
+
+#button1_normal {
+    margin-top: 5px;
+    position: absolute;
+    z-index: 100;
+}
+
+#button2_normal {
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+}
+
+#button3_normal {
+    position: absolute;
+    right:0;
+    bottom:40px;
+    z-index: 100;
+}
+
+
+
+/* DRY SKIN CONTENT AND ASSETS */
+.content_dry {
+    height: 100vh;
+    background-color: #f1f1ef;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.text_dry h2 {
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.text_dry p {
+    font-weight: 100;
+    font-size: 9pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 5px;
+
+}
+
+.text_dry h4 {
+    font-weight: 600;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+#dry_1 img {
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 81px;
+}
+
+#dry_2 img {
+    width: 75px;
+    margin-top: -150px;
+    margin-left: 275px;
+}
+
+#dry_3 img {
+    width: 100px;
+    margin-top: -200px;
+    margin-left: 418px;
+}
+
+
+#button1_dry {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 70px;
+    margin-top: -50px;
+    position: absolute;
+    z-index: 100;
+}
+
+#button2_dry {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 275px;
+    margin-top: -202px;
+    position: absolute;
+    z-index: 100;
+}
+
+#button3_dry {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 520px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: 100;
+
+}
+
+#dry_done {
+    background-color: white;
+    height: 50px;
+    width: 160px;
+    margin-top: 65px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+#dry_done:hover {
+    background-color: black;
+    color: white;
+}
+
+#button1_dry:hover {
+    background-color: white;
+}
+
+#button2_dry:hover {
+    background-color: white;
+}
+
+#button3_dry:hover {
+    background-color: white;
+}
+
+/* OILY SKIN CONTENT AND ASSETS */
+.content_oily {
+    height: 100vh;
+    /*    #A7ABC9*/
+    background-color: #D1D4E4;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_oily h2 {
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.text_oily p {
+    font-weight: 100;
+    font-size: 9pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 5px;
+
+}
+
+.text_oily h4 {
+    font-weight: 600;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+#oily_1 img {
+    width: 75px;
+    margin-top: 70px;
+    margin-left: 119px;
+}
+
+#oily_2 img {
+    width: 120px;
+    margin-top: -195px;
+    margin-left: 252px;
+}
+
+#oily_3 img {
+    width: 150px;
+    margin-top: -170;
+    margin-left: 393px;
+}
+
+#button1_oily {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 115px;
+    margin-top: -40px;
+    position: absolute;
+    z-index: 100;
+}
+
+#button2_oily {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 250px;
+    margin-top: -192px;
+    position: absolute;
+    z-index: 100;
+}
+
+#button3_oily {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 547px;
+    margin-top: -45px;
+    position: absolute;
+    z-index: 100;
+}
+
+
+/* COMBO SKIN CONTENT AND ASSETS */
+.content_combo {
+    height: 100vh;
+    background-color: #ffebeb;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_combo h2 {
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.text_combo p {
+    font-weight: 100;
+    font-size: 9pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 5px;
+
+}
+
+.text_combo h4 {
+    font-weight: 600;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+#combo_1 img {
+    width: 75px;
+}
+
+
+#combo_2 img {
+    width: 75px;
+}
+
+#combo_3 img {
+    width: 150px;
+}
+
+#button1_combo {
+    margin-top:10px;
+    z-index: 100;
+}
+
+#button2_combo {
+   margin-top:10px;
+    z-index: 100;
+}
+
+#button3_combo {
+     margin-top:10px;
+    z-index: 100;
+}
+
+#combo_done {
+    background-color: white;
+    height: 50px;
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+#combo_done:hover {
+    background-color: black;
+    color: white;
+}
+
+
+#button1_combo:hover {
+    background-color: white;
+}
+
+#button2_combo:hover {
+    background-color: white;
+}
+
+#button3_combo:hover {
+    background-color: white;
+}
+
+
+/* COMPLETED PAGE CONTENT AND ASSETS */
+.content_completed {
+    height: 100vh;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20%;
+}
+
+.message p {
+    font-weight: 100;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 50px;
+
+}
+
+#button2_new {
+    background-color: #d4e9f8;
+    height: 50px;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+#button2_new:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: #f9cccc;
+}
+
+
+/*POP UP WINDOW TESTING*/
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Black w/ opacity */
+    visibility: hidden;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 60%;
+    /* Could be more or less, depending on screen size */
+    position: absolute;
+    left: 16%;
+    top: 16%;
+    visibility: hidden;
+    z-index: 200;
+    display: flex;
+}
+
+.no-flex {
+    margin-left: 20px;
+}
+
+.modal-content h1 {
+    font-weight: 600;
+    font-size: 12pt;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.modal-content h2 {
+    font-weight: 100;
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+.modal-content h5 {
+    font-weight: 100;
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+.link {
+    font-weight: 100;
+    font-size: 10pt;
+    margin-top: 30px;
+    color: #f9cccc;
+}
+
+.modal-content img {
+    height: 352px;
+}
+
+
+/* Modal Box Visibility */
+
+.visible {
+    visibility: visible !important;
+}
+
+a:hover {
+    color: black;
+}
+
+
+
+
+
+/**************** Helper Classes***************/
+.flex-box {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+/************ Buttons *************************/
+.button {
+    margin-top: 60px;
+    margin-right: 10px;
+    background-color: #d4e9f8;
+    height: 50px;
+    width: 110px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.done-button {
+    background-color: white;
+    height: 50px;
+    width: 160px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.done-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#button2_new {
+    width: 200px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    margin: 50px auto 0;
+}
+
+.round-button {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    z-index: 100;
+}
+
+.round-button:hover {
+    background-color: white;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #f9cccc;
+    text-decoration: none;
+    cursor: pointer;
+}

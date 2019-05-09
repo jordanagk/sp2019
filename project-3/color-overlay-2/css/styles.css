@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.rollover-item {
+    position: relative;
+    overflow: hidden;
+    width: 100%; /* same width as image*/
+    height: 100%;
+}
+
+#project-1 {
+    background: url(/project-3/color-overlay-2/assets/pluto-p1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#project-2 {
+    background: url(/project-3/color-overlay-2/assets/pluto-p2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#project-3 {
+    background: url(/project-3/color-overlay-2/assets/pluto-p3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.item-container {
+    width: 32%;
+    height: 16em;
+    margin-bottom: 1em;
+}
+
+.product-img {
+    text-align: center;
+}
+
+.description {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block;
+    width: 100%;
+    line-height: 16em; /* same height as image */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.rollover-item:hover .description {
+    top: 0;
+    color:yellow;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%% helper classes %%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+/****************** colors ***********************************/
+.pluto-blue {
+    background-color: #4bc2c390;
+}
+
+.pluto-pink {
+    background-color: #cb508090;
+}
+
+.pluto-green {
+    background-color:#cbca5090;
+}
+
+/* transitions */
+
+/*
+.top-trans {
+    transition: top 0.5s ease;
+}
+*/
+
+.color-trans {
+    transition: color 1s ease;
+}

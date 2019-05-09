@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("Screen%20Shot%202019-03-22%20at%209.31.46%20AM.png");
+}
+
+.container {
+    width: 768px;
+    height: 4000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.top-section-container {
+    height: 500px;
+    width: 768px;
+    position: relative;
+}
+
+
+.top-section {
+    height: 500px;
+    width: 768px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.top-section h1 {
+    font-family: monospace;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+
+#character {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    background-image: url()
+}
+
+.circle {
+    border: 10px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#circle1 {
+    top: 10.15%;
+    left: 48.75%;
+    z-index: 99;
+}
+
+#circle2 {
+    position: absolute;
+    top: -10.15%;
+    left: 48.75%;
+    z-index: 4;
+}
+
+#circle3 {
+    position: absolute;
+    top: 3000px;
+    left: 49%;
+    z-index: 0;
+}
+
+.middle-section {
+    height: 500px;
+    width: 768px;
+    background-color: yellow;
+    position: absolute;
+}
+
+.rectangle {
+    height: 500px;
+    width: 768px;
+    position: absolute;
+}
+
+#pos1 {
+    top: 1000px;
+}
+
+#pos2 {
+    top: 2000px;
+    z-index: 5;
+}
+
+#pos3 {
+    z-index: 6;
+    background-color: aquamarine;
+}
+
+:
+/**************** COLORS ********************/
+/************   #456d78 – dark turqouise blue */
+/************   #a515c7 – darkish purple */
